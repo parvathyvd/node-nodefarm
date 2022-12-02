@@ -1,5 +1,28 @@
 {
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "learning node js",
+  "main": "index.js",
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "object-assign": "^4.1.1",
+    "slugify": "^1.6.5",
+    "vary": "^1.1.2"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parvathyvd/node-nodefarm.git"
+  },
+  "author": "parvathy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parvathyvd/node-nodefarm/issues"
+  },
+  "homepage": "https://github.com/parvathyvd/node-nodefarm#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
